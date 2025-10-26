@@ -1,0 +1,15 @@
+1,Juan Pérez,Matemáticas,85
+2,Ana Gómez,Matemáticas,92
+3,Carlos Ruiz,Historia,70
+4,María Torres,Historia,88
+5,José López,Inglés,95
+6,Luis Díaz,Inglés,67
+7,Laura Castillo,Matemáticas,58
+8,Sofía Herrera,Historia,77
+9,Andrés Flores,Inglés,82
+10,Elena Ramírez,Matemáticas,91
+11,Diego Vargas,Historia,64
+12,Paula Ortiz,Inglés,73
+13,Miguel Santos,Matemáticas,100
+14,Lucía Méndez,Historia,81
+15,Ricardo Pineda,Inglés,55
