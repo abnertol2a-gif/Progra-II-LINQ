@@ -1,0 +1,90 @@
+=== Estudiantes Aprobados ===
+1 - Juan Pérez | Curso: Matemáticas | Nota: 85
+2 - Ana Gómez | Curso: Matemáticas | Nota: 92
+3 - Carlos Ruiz | Curso: Historia | Nota: 70
+4 - María Torres | Curso: Historia | Nota: 88
+5 - José López | Curso: Inglés | Nota: 95
+8 - Sofía Herrera | Curso: Historia | Nota: 77
+9 - Andrés Flores | Curso: Inglés | Nota: 82
+10 - Elena Ramírez | Curso: Matemáticas | Nota: 91
+12 - Paula Ortiz | Curso: Inglés | Nota: 73
+13 - Miguel Santos | Curso: Matemáticas | Nota: 100
+14 - Lucía Méndez | Curso: Historia | Nota: 81
+
+=== Top 5 por Curso ===
+13 - Miguel Santos | Curso: Matemáticas | Nota: 100
+2 - Ana Gómez | Curso: Matemáticas | Nota: 92
+10 - Elena Ramírez | Curso: Matemáticas | Nota: 91
+1 - Juan Pérez | Curso: Matemáticas | Nota: 85
+7 - Laura Castillo | Curso: Matemáticas | Nota: 58
+4 - María Torres | Curso: Historia | Nota: 88
+14 - Lucía Méndez | Curso: Historia | Nota: 81
+8 - Sofía Herrera | Curso: Historia | Nota: 77
+3 - Carlos Ruiz | Curso: Historia | Nota: 70
+11 - Diego Vargas | Curso: Historia | Nota: 64
+5 - José López | Curso: Inglés | Nota: 95
+9 - Andrés Flores | Curso: Inglés | Nota: 82
+12 - Paula Ortiz | Curso: Inglés | Nota: 73
+6 - Luis Díaz | Curso: Inglés | Nota: 67
+15 - Ricardo Pineda | Curso: Inglés | Nota: 55
+
+=== Promedio por Curso ===
+Matemáticas: 85.20
+Historia: 76.00
+Inglés: 74.40
+
+=== Top 10 General ===
+13 - Miguel Santos | Curso: Matemáticas | Nota: 100
+5 - José López | Curso: Inglés | Nota: 95
+2 - Ana Gómez | Curso: Matemáticas | Nota: 92
+10 - Elena Ramírez | Curso: Matemáticas | Nota: 91
+4 - María Torres | Curso: Historia | Nota: 88
+1 - Juan Pérez | Curso: Matemáticas | Nota: 85
+9 - Andrés Flores | Curso: Inglés | Nota: 82
+14 - Lucía Méndez | Curso: Historia | Nota: 81
+8 - Sofía Herrera | Curso: Historia | Nota: 77
+12 - Paula Ortiz | Curso: Inglés | Nota: 73
+
+=== Ranking General ===
+#1 - Miguel Santos (100)
+#2 - José López (95)
+#3 - Ana Gómez (92)
+#4 - Elena Ramírez (91)
+#5 - María Torres (88)
+#6 - Juan Pérez (85)
+#7 - Andrés Flores (82)
+#8 - Lucía Méndez (81)
+#9 - Sofía Herrera (77)
+#10 - Paula Ortiz (73)
+#11 - Carlos Ruiz (70)
+#12 - Luis Díaz (67)
+#13 - Diego Vargas (64)
+#14 - Laura Castillo (58)
+#15 - Ricardo Pineda (55)
+
+=== Mejor Estudiante por Curso ===
+Matemáticas: Miguel Santos (100)
+Historia: María Torres (88)
+Inglés: José López (95)
+
+=== Intervalos de Notas ===
+0-59:
+7 - Laura Castillo | Curso: Matemáticas | Nota: 58
+15 - Ricardo Pineda | Curso: Inglés | Nota: 55
+
+60-79:
+3 - Carlos Ruiz | Curso: Historia | Nota: 70
+6 - Luis Díaz | Curso: Inglés | Nota: 67
+8 - Sofía Herrera | Curso: Historia | Nota: 77
+11 - Diego Vargas | Curso: Historia | Nota: 64
+12 - Paula Ortiz | Curso: Inglés | Nota: 73
+
+80-100:
+1 - Juan Pérez | Curso: Matemáticas | Nota: 85
+2 - Ana Gómez | Curso: Matemáticas | Nota: 92
+4 - María Torres | Curso: Historia | Nota: 88
+5 - José López | Curso: Inglés | Nota: 95
+9 - Andrés Flores | Curso: Inglés | Nota: 82
+10 - Elena Ramírez | Curso: Matemáticas | Nota: 91
+13 - Miguel Santos | Curso: Matemáticas | Nota: 100
+14 - Lucía Méndez | Curso: Historia | Nota: 81
