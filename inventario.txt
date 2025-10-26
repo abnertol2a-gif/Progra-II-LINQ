@@ -1,0 +1,10 @@
+1,Mouse,Periféricos,25.50,15
+2,Teclado,Periféricos,40.00,8
+3,Monitor,Electrónica,200.00,5
+4,Laptop,Electrónica,1200.00,3
+5,Cable HDMI,Accesorios,10.00,25
+6,USB 32GB,Accesorios,15.00,50
+7,Silla Gamer,Muebles,300.00,2
+8,Escritorio,Muebles,450.00,6
+9,Audífonos,Periféricos,60.00,20
+10,Impresora,Electrónica,180.00,4
