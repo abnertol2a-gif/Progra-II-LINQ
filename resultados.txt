@@ -1,0 +1,41 @@
+=== Productos con stock menor a 10 ===
+2 - Teclado (Periféricos) | Precio: Q40.00 | Stock: 8
+3 - Monitor (Electrónica) | Precio: Q200.00 | Stock: 5
+4 - Laptop (Electrónica) | Precio: Q1,200.00 | Stock: 3
+7 - Silla Gamer (Muebles) | Precio: Q300.00 | Stock: 2
+8 - Escritorio (Muebles) | Precio: Q450.00 | Stock: 6
+10 - Impresora (Electrónica) | Precio: Q180.00 | Stock: 4
+
+=== Productos ordenados por precio descendente ===
+4 - Laptop (Electrónica) | Precio: Q1,200.00 | Stock: 3
+8 - Escritorio (Muebles) | Precio: Q450.00 | Stock: 6
+7 - Silla Gamer (Muebles) | Precio: Q300.00 | Stock: 2
+3 - Monitor (Electrónica) | Precio: Q200.00 | Stock: 5
+10 - Impresora (Electrónica) | Precio: Q180.00 | Stock: 4
+9 - Audífonos (Periféricos) | Precio: Q60.00 | Stock: 20
+2 - Teclado (Periféricos) | Precio: Q40.00 | Stock: 8
+1 - Mouse (Periféricos) | Precio: Q25.50 | Stock: 15
+6 - USB 32GB (Accesorios) | Precio: Q15.00 | Stock: 50
+5 - Cable HDMI (Accesorios) | Precio: Q10.00 | Stock: 25
+
+=== Valor total del inventario: Q11,522.50 ===
+
+=== Productos agrupados por categoría ===
+
+Categoría: Periféricos
+  - Mouse ($25.50)
+  - Teclado ($40.00)
+  - Audífonos ($60.00)
+
+Categoría: Electrónica
+  - Monitor ($200.00)
+  - Laptop ($1200.00)
+  - Impresora ($180.00)
+
+Categoría: Accesorios
+  - Cable HDMI ($10.00)
+  - USB 32GB ($15.00)
+
+Categoría: Muebles
+  - Silla Gamer ($300.00)
+  - Escritorio ($450.00)

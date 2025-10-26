@@ -1,15 +1,19 @@
-﻿using System;
+﻿using Ejercicio2_LINQ;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
-namespace Ejercicio2_LINQ
+namespace InventarioLINQ
 {
     class Program
     {
         static void Main()
         {
+            // Usamos ruta absoluta para evitar errores de acceso
             string rutaArchivo = "C:\\Users\\Abner\\OneDrive\\Documents\\Visual Studio 2022\\Progra 2-linq\\Progra-II-LINQ\\inventario.txt";
+            string rutaSalida = "C:\\Users\\Abner\\OneDrive\\Documents\\Visual Studio 2022\\Progra 2-linq\\Progra-II-LINQ\\resultados.txt";
+
             List<Producto> productos = CargarProductos(rutaArchivo);
 
             // a) Productos con stock menor a 10
@@ -24,7 +28,9 @@ namespace Ejercicio2_LINQ
             // d) Agrupar productos por categoría
             var agrupadosPorCategoria = productos.GroupBy(p => p.Categoria);
 
-            // Mostrar resultados en consola
+            // ======================
+            // 📟 Mostrar resultados en consola (mantiene el comportamiento del commit 2)
+            // ======================
             Console.WriteLine("=== Productos con stock menor a 10 ===");
             foreach (var p in bajoStock) Console.WriteLine(p);
 
@@ -40,6 +46,30 @@ namespace Ejercicio2_LINQ
                 foreach (var p in grupo)
                     Console.WriteLine($"  - {p.Nombre} (${p.Precio})");
             }
+
+            // ======================
+            // 📝 Exportar resultados a archivo (nuevo en commit 3)
+            // ======================
+            using (StreamWriter sw = new StreamWriter(rutaSalida))
+            {
+                sw.WriteLine("=== Productos con stock menor a 10 ===");
+                foreach (var p in bajoStock) sw.WriteLine(p);
+
+                sw.WriteLine("\n=== Productos ordenados por precio descendente ===");
+                foreach (var p in ordenadosPorPrecio) sw.WriteLine(p);
+
+                sw.WriteLine($"\n=== Valor total del inventario: {valorTotal:C} ===");
+
+                sw.WriteLine("\n=== Productos agrupados por categoría ===");
+                foreach (var grupo in agrupadosPorCategoria)
+                {
+                    sw.WriteLine($"\nCategoría: {grupo.Key}");
+                    foreach (var p in grupo)
+                        sw.WriteLine($"  - {p.Nombre} (${p.Precio})");
+                }
+            }
+
+            Console.WriteLine($"\nResultados exportados correctamente a '{rutaSalida}'.");
         }
 
         static List<Producto> CargarProductos(string ruta)
